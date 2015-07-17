@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:weightSum="1"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:layout_gravity="center">
+    <LinearLayout
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/win"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:weightSum="10">
+
+
+        <TextView
+            android:layout_weight="3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="МИНИМАЛЬНЫЙ (5/5)"
+            android:id="@+id/tvTitle"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textColor="#1F3763"/>
+
+        <TextView
+            android:layout_weight="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="По 5 обращений в месяц "
+            android:id="@+id/tvDescr"
+            android:layout_gravity="fill"
+            android:gravity="fill"
+            android:textColor="#000"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+             />
+        <TextView
+            android:layout_weight="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Срок 3 месяца"
+            android:id="@+id/tvSrok"
+            android:layout_gravity="fill"
+            android:gravity="fill"
+            android:textColor="#000"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+
+        <LinearLayout
+            android:layout_weight="3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="right"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="50000"
+                android:id="@+id/tvPrice"
+                android:layout_gravity="right|center_vertical"
+                android:textStyle="bold"
+                android:textColor="#1F3763"
+                android:textSize="41dp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView"
+                android:src="@drawable/rubl"
+                android:scaleType="fitCenter"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="0.2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:background="@drawable/podkl_paket"/>
+
+
+</LinearLayout>

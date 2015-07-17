@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Свой Юрист</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_registration">RegistrationActivity</string>
+    <string name="title_activity_new">NewActivity</string>
+    <string name="title_activity_chat">chatActivity</string>
+    <string name="title_activity_tarif">TarifActivity</string>
+    <string-array name="screen_array">
+        <item>Тарифы</item>
+        <item>Услуги</item>
+        <item>Создать заявку</item>
+        <item>Мой баланс</item>
+        <item>История заказов</item>
+        <item>Новости</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_tarifi">TarifiActivity</string>
+</resources>

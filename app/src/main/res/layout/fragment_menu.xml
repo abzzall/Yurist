@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="shivas.studio.com.yurist.Fragments.MenuPage"
+    android:gravity="center"
+    android:background="@drawable/back">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_alignParentTop="true"
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tarifi"
+                android:id="@+id/btTarifi"
+                android:layout_above="@+id/btUsl"
+                android:layout_centerHorizontal="true"/>
+            <Button
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/uslugy"
+                android:id="@+id/btUsl"
+
+                android:layout_above="@+id/btCrZayavku"
+                android:layout_centerHorizontal="true" />
+            <Button
+                android:layout_margin="20dp"
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cr_zayav"
+                android:id="@+id/btCrZayavku"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"/>
+
+
+
+
+            <Button
+                android:layout_margin="20dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/istory"
+                android:id="@+id/btIst"
+                android:layout_below="@+id/btCrZayavku"
+                />
+
+            <Button
+                android:layout_margin="20dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/balance"
+                android:id="@+id/btBalance"
+
+                android:layout_below="@+id/btIst"/>
+            <Button
+                android:layout_margin="20dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/novosti"
+                android:id="@+id/btNew"
+
+                android:layout_below="@+id/btBalance"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

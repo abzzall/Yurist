@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="shivas.studio.com.yurist.RegistrationActivity"
+    android:gravity="center"
+    android:background="#D1EDF6">
+
+        <RelativeLayout android:layout_margin="41dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView     android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                
+                android:text="Ф. И. О."
+                android:id="@+id/tvName" />
+
+            <EditText android:background="@drawable/editback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/etName"
+                android:layout_below="@+id/tvName"/>
+
+            <TextView     android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etName"
+                android:text="Ваш электронный адрес"
+                android:id="@+id/tvMail" />
+
+            <EditText
+                android:layout_below="@+id/tvMail"
+                android:background="@drawable/editback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:id="@+id/etMail" />
+
+            <TextView     android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etMail"
+                android:text="Ваш номер телефона"
+                android:id="@+id/tvPhone" />
+
+            <EditText
+                android:layout_below="@+id/tvPhone"
+                android:background="@drawable/editback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:ems="10"
+                android:id="@+id/etPhone" />
+
+            <TextView     android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etPhone"
+                android:text="Ваш пароль"
+                android:id="@+id/tvPass"
+                />
+
+            <EditText
+                android:layout_below="@+id/tvPass"
+                android:background="@drawable/editback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/etPas" />
+
+            <TextView
+
+                android:layout_below="@+id/etPas"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                
+                android:text="Повторите пароль"
+                android:id="@+id/tvRePas" />
+
+            <EditText
+                android:layout_below="@+id/tvRePas"
+                android:background="@drawable/editback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/etRePas" />
+
+            <Button
+                android:layout_below="@+id/etRePas"
+                android:background="@drawable/bt_reg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Reg"
+                android:layout_gravity="center" />
+        </RelativeLayout>
+</RelativeLayout>
